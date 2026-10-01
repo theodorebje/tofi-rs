@@ -38,9 +38,9 @@ If something behaves differently from upstream, please [open an issue](https://g
 
 tofi reads its settings from two separate TOML files:
 
-| File                                | Purpose                                          |
-| ----------------------------------- | ------------------------------------------------ |
-| `~/.config/tofi/config.toml`        | Behavioral settings (matching, history, output)  |
-| `~/.config/tofi/themes/<name>.toml` | Visual settings (colors, fonts, window geometry) |
+| File                                       | Purpose                                          |
+| ------------------------------------------ | ------------------------------------------------ |
+| `$XDG_CONFIG_HOME/tofi/config.toml`        | Behavioral settings (matching, history, output)  |
+| `$XDG_CONFIG_HOME/tofi/themes/<name>.toml` | Visual settings (colors, fonts, window geometry) |
 
 The theme file is referenced by the `[base].theme` key in the config, or overridden on the command line with `--theme <path>`.

@@ -1,6 +1,15 @@
-# tofi-rs
+# tofi-rs-auto-output
 
-A Rust fork of [tofi](https://github.com/philj56/tofi).
+A soft fork of [tofi-rs](https://github.com/Gigas002/tofi-rs) with automatic
+output selection built-in. See
+[this comment by the author of tofi-rs](https://github.com/Gigas002/tofi-rs/issues/58#issuecomment-5903204725)
+on why my feature wasn't merged.
+
+Any issues with tofi-rs-auto-output should be reported to this project rather
+than to upstream.
+
+[tofi-rs](https://github.com/Gigas002/tofi-rs) is itself a rust rewrite of
+[tofi](https://github.com/philj56/tofi).
 
 ## Building
 
@@ -23,7 +32,7 @@ The `clipboard` feature is opt-in; add `--features clipboard` to enable paste su
 
 See [CHANGELOG.md](CHANGELOG.md) for known differences and migration notes per release.
 
-If something behaves differently from upstream, please [open an issue](https://github.com/Gigas002/tofi-rs/issues) with the compositor name, scale factor, and a minimal config to reproduce.
+If something behaves differently from upstream, please [open an issue](https://github.com/theodorebje/tofi-rs/issues) with the compositor name, scale factor, and a minimal config to reproduce.
 
 ## Configuration
 

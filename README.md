@@ -1,12 +1,15 @@
 # tofi-rs-auto-output
 
-A soft fork of [tofi-rs](https://github.com/Gigas002/tofi-rs) with automatic
-output selection built-in. See
-[this comment by the author of tofi-rs](https://github.com/Gigas002/tofi-rs/issues/58#issuecomment-5903204725)
-on why my feature wasn't merged.
+A soft fork of [tofi-rs](https://github.com/Gigas002/tofi-rs) that adds
+automatic output selection, which upstream chose not to include. If you don't
+need that specific feature, upstream is probably better suited. This fork tracks
+upstream and is licensed under the same terms.
 
-Any issues with tofi-rs-auto-output should be reported to this project rather
-than to upstream.
+Please report any issues with this fork here rather than to upstream directly.
+If a bug turns out to be in upstream as well, I'll forward it to upstream.
+
+Credit to [Gigas002](https://github.com/Gigas002) for the upstream repo. Please
+star the upstream project.
 
 [tofi-rs](https://github.com/Gigas002/tofi-rs) is itself a rust rewrite of
 [tofi](https://github.com/philj56/tofi).
